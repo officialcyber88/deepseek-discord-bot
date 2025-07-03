@@ -1,0 +1,8 @@
+gradio
+aiohttp
+nest_asyncio
+uvloop
+requests
+orjson
+pydantic<1.11
+discord.py
