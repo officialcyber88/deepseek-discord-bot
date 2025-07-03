@@ -9,12 +9,12 @@ orjson
 discord.py==2.5.2
 
 # UI
-gradio==3.50.2
+gradio>=5.31.0,<6.0
 
 # Data types & network
 numpy>=2.0.0,<3.0.0
 pydantic>=2.0.0,<3.0.0
-websockets>=10.0,<12.0
+websockets>=13.0,<14.0
 
 # (Optional) NLP, if you need spaCy:
 spacy>=3.6.0,<4.0.0
