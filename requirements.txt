@@ -1,8 +1,30 @@
-gradio
+# Core I/O + network
 aiohttp
 nest_asyncio
 uvloop
 requests
 orjson
-pydantic<1.11
-discord.py
+
+# Discord integration
+discord.py==2.5.2
+
+# UI
+gradio==3.50.2
+
+# Data types & network
+numpy>=2.0.0,<3.0.0
+pydantic>=2.0.0,<3.0.0
+websockets>=14.0,<15.1.0
+
+# (Optional) NLP, if you need spaCy:
+spacy>=3.6.0,<4.0.0
+# this will pull in thinc>=8.0.0 which now works with numpy>=2.0
+
+# (Optional) Torch, if you need GPU:
+torch==2.6.0+cu124  # be sure to match your CUDA version  
+
+# Any other libs that need pydantic-2.x / numpy-2.x
+albumentations>=2.0.8
+langchain-core>=0.3.67
+google-genai>=1.23.0
+yfinance>=0.2.64
